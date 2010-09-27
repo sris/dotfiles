@@ -1,2 +1,3 @@
 set guifont=Monaco:h12
-colorscheme molokai
+colorscheme blackboard
+set guioptions-=T
