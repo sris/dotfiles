@@ -32,9 +32,9 @@ set laststatus=2
 set undofile
 
 " Backups
-set backupdir=~/.vim/tmp/backup// " backups
-set directory=~/.vim/tmp/swap//   " swap files
-set backup                        " enable backups
+" set backupdir=~/.vim/tmp/backup// " backups
+" set directory=~/.vim/tmp/swap//   " swap files
+" set backup                        " enable backups
 
 " Leader
 let mapleader = ","
@@ -52,6 +52,12 @@ map <leader><space> :noh<cr>
 " runtime macros/matchit.vim
 " nmap <tab> %
 " vmap <tab> %
+
+" Soft/hard wrapping
+set nowrap
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=79
 
 " Use the same symbols as TextMate for tabstops and EOLs
 set list
