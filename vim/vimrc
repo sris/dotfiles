@@ -66,6 +66,7 @@ set listchars=tab:▸\ ,eol:¬
 " Color scheme (terminal)
 syntax on
 colorscheme cobalt
+let python_highlight_all=1
 
 " Use the damn hjkl keys
 nnoremap <up> <nop>
