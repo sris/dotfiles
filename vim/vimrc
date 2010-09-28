@@ -77,3 +77,6 @@ nnoremap <right> <nop>
 " And make them fucking work, too.
 " nnoremap j gj
 " nnoremap k gk
+
+" FuzzyFinder
+map <leader>t :FuzzyFinderTextMate<Enter>

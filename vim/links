@@ -8,3 +8,13 @@ Blackboard http://ianbits.googlecode.com/svn/trunk/vim/blackboard.vim
 Cobalt http://github.com/dterei/VimCobaltColourScheme
 IR_Black http://blog.infinitered.com/entry_files/8/ir_black.vim
 Dusk - http://www.vim.org/scripts/download_script.php?src_id=4806
+
+
+FuzzyFinder
+-----------
+http://www.vim.org/scripts/download_script.php?src_id=10718
+sudo gem install fuzzy_file_finder -v=1.0.4
+gem unpack fuzzy_file_finder
+mkdir ruby
+cp fuzzy_file_finder-1.0.4/lib/fuzzy_file_finder.rb ruby/
+http://github.com/airblade/fuzzyfinder_textmate.git
