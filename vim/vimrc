@@ -80,3 +80,6 @@ nnoremap <right> <nop>
 
 " FuzzyFinder
 map <leader>t :FuzzyFinderTextMate<Enter>
+
+" Strip all trailing white spaces
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
